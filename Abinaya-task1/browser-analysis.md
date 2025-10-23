@@ -1,4 +1,4 @@
-#PART-A : Browser-Analysis
+<b>PART-A : Browser-Analysis</b>
 
 1). According to the observations I made, the request header of HTTP did not contain any cookies, while the HTTPS one did. Host was not found in request header of HTTPS, but was found in HTTP. Also, the sec fetch site was same origin for HTTPS while cross-site for HTTP.This means that, the HTTPS webiste is requesting data from the same origin, but from a different page while HTTP website is requesting data from a completely different website.
 
