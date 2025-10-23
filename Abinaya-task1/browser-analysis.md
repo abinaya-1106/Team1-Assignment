@@ -9,6 +9,7 @@ HTTPS is more secure than HTTP becuase HTTPS encrypts the data, so only the clie
 2). For NeverSSL, only 2 requests were made(the online/ and favicon.ico requests). The online/ request header recieved html file as response, while favicon.ico recieved an image represented as a matrix as response. For github, around 168 requests were made which included requests for images, javascript files, stylesheets and gif. For youtube, around 95 requests were made for images, gif’s,stylesheets,fetch and xhr. Github made the most requests as it loads even samll files like images and icons unlike youtube which loads it in big bundles(so it requires lesser requests).
 
 3). Load time for all websites:
+
 	NeverSSL  - 6.11 s
 	
 	Github       - 3.03 s
