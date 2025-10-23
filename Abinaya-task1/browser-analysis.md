@@ -1,4 +1,4 @@
-PART-A : Browser-Analysis
+#PART-A : Browser-Analysis
 
 1). According to the observations I made, the request header of HTTP did not contain any cookies, while the HTTPS one did. Host was not found in request header of HTTPS, but was found in HTTP. Also, the sec fetch site was same origin for HTTPS while cross-site for HTTP.This means that, the HTTPS webiste is requesting data from the same origin, but from a different page while HTTP website is requesting data from a completely different website.
 
@@ -20,6 +20,6 @@ HTTPS is more secure than HTTP becuase HTTPS encrypts the data, so only the clie
 	
 <b>DNS lookup time</b> – DNS is basically a server that acts like a phonebook. It takes human readable domain names and returns the corresponding IP address associated with that particular domain name, to our browser.Then our browser connects to the server using this address and loads the website. DNS lookup time, is the time taken by browser to convert domain name to its corresponding IP address. 
 
-Connection time -  Connection time is the time required to make a secure connection between the client and the server including handshakes and encryption of data.
+<b>Connection time</b> -  Connection time is the time required to make a secure connection between the client and the server including handshakes and encryption of data.
 
-TTFB – After the browser sends request, the total time taken to recieve the first byte of data from the server is called TTFB(time to first byte). It involves request time, response time,  DNS lookup, connection timeand server processing time.
+<b>TTFB</b> – After the browser sends request, the total time taken to recieve the first byte of data from the server is called TTFB(time to first byte). It involves request time, response time,  DNS lookup, connection timeand server processing time.
