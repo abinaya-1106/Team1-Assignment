@@ -18,7 +18,7 @@ HTTPS is more secure than HTTP becuase HTTPS encrypts the data, so only the clie
 	
     The online/ request of NeverSSL took the longest.
 	
-DNS lookup time – DNS is basically a server that acts like a phonebook. It takes human readable domain names and returns the corresponding IP address associated with that particular domain name, to our browser.Then our browser connects to the server using this address and loads the website. DNS lookup time, is the time taken by browser to convert domain name to its corresponding IP address. 
+<b>DNS lookup time</b> – DNS is basically a server that acts like a phonebook. It takes human readable domain names and returns the corresponding IP address associated with that particular domain name, to our browser.Then our browser connects to the server using this address and loads the website. DNS lookup time, is the time taken by browser to convert domain name to its corresponding IP address. 
 
 Connection time -  Connection time is the time required to make a secure connection between the client and the server including handshakes and encryption of data.
 
